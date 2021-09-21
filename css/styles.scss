@@ -1,0 +1,81 @@
+@import './variables';
+@import './normalize';
+@import './global';
+
+.Header-container {
+    width: 100%;
+    height: 50px;
+    background: $color-variacion;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Header--menu {
+        margin-left: 10px;
+    }
+
+    .Header--diccionario {
+        font-size: $FontSize;
+        font-weight: bold;
+        color: $color-white;
+    }
+
+    .Header--perfil {
+        margin-right: 10px;
+    }
+}
+// Menu
+.burger-button {
+    width: 30px;
+    height: 40px;
+    display: block;
+    background-image: url('../assets/icons/menu.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.perfil-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+// Search
+.Search--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    border: 1px solid $color-claro-gray;
+    border-radius: $Radius;
+    box-shadow: $Shadow;
+    margin-top: 20px;
+    
+
+    .Search-icon {
+        width: 30px;
+        height: 25px;
+        background-image: url('../assets/icons/search.svg');
+        display: block;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+
+    .Search--input {
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: $FontSizeMin;
+    }
+}
