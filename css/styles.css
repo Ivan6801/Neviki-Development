@@ -351,22 +351,27 @@ template {
 
 ::-webkit-input-placeholder {
   color: #C4C4C4;
+  font-weight: bold;
 }
 
 ::-moz-placeholder {
   color: #C4C4C4;
+  font-weight: bold;
 }
 
 :-ms-input-placeholder {
   color: #C4C4C4;
+  font-weight: bold;
 }
 
 ::-ms-input-placeholder {
   color: #C4C4C4;
+  font-weight: bold;
 }
 
 ::placeholder {
   color: #C4C4C4;
+  font-weight: bold;
 }
 
 * {
@@ -374,11 +379,17 @@ template {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #374151;
+  font-weight: 500;
 }
 
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+}
+
+.App-container {
+  background-color: #F3F4F6;
 }
 
 .Header-container {
@@ -459,8 +470,30 @@ html {
   margin: 10px;
 }
 .Search--container .Search--input {
+  background-color: #F3F4F6;
   width: 100%;
   border: none;
   outline: none;
   font-size: 1.4rem;
+  margin-left: 10px;
+}
+.Search--container .Search-line {
+  width: 5px;
+  height: 30px;
+  background-image: url("../assets/icons/line.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.List--container {
+  width: 95%;
+  margin: auto;
+  height: 75vh;
+  border: 1px solid #C4C4C4;
+  overflow-y: hidden;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #F3F4F6;
 }

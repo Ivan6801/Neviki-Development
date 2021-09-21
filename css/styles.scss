@@ -2,6 +2,10 @@
 @import './normalize';
 @import './global';
 
+.App-container {
+   background-color: $color-secundario;;
+}
+
 .Header-container {
     width: 100%;
     height: 50px;
@@ -59,7 +63,6 @@
     border-radius: $Radius;
     box-shadow: $Shadow;
     margin-top: 20px;
-    
 
     .Search-icon {
         width: 30px;
@@ -71,11 +74,33 @@
         background-repeat: no-repeat;
         margin: 10px;
     }
-
     .Search--input {
+        background-color: $color-secundario;
         width: 100%;
         border: none;
         outline: none;
         font-size: $FontSizeMin;
+        margin-left: 10px;
     }
+    .Search-line {
+        width: 5px;
+        height: 30px;
+        background-image: url('../assets/icons/line.svg');
+        display: block;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+// Lista de diccionario
+.List--container {
+    width: 95%;
+    margin: auto;
+    height: 75vh;
+    border: 1px solid $color-claro-gray;
+    overflow-y: hidden;
+    margin-top: 20px;
+    border-radius: $Radius;
+    background-color: $color-secundario;
 }
