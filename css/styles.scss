@@ -63,7 +63,7 @@
     border: 1px solid $color-claro-gray;
     border-radius: $Radius;
     box-shadow: $Shadow;
-    margin-top: 20px;
+    margin-top: 10px;
 
     .Search-icon {
         width: 30px;
@@ -99,19 +99,20 @@
     width: 95%;
     margin: 0 auto;
     height: 70vh;
-    overflow-y: auto;
     border: 1px solid $color-claro-gray;
-    overflow-y: hidden;
-    margin-top: 20px;
+    overflow-y: auto;
+    margin-top: 10px;
     border-radius: $Radius;
     box-shadow: $Shadow;
     background-color: $color-secundario;
+    
 }
 
 .list-group {
     width: 100%;
-    height: 70vh;
-    overflow-y: scroll;
+    height: auto; // Height se quedó disponible Auto
+    overflow-y: auto;
+  
 
     .list-group-item {
         color: $color-primario;
@@ -119,5 +120,55 @@
         font-size: 1.8rem;
         cursor: pointer;
         padding: 10px;
+      
     }
+}
+
+// Footer 
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: $backgroundFooter;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer div span {
+    color: $color-white;
+}
+
+.footer-left-diccioario {
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/diccionario.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.footer-center-diccioario {
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/nuevo.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.footer-right-diccioario {
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/perfil.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
