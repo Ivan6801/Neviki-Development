@@ -1,0 +1,65 @@
+@import './variables';
+
+.menu {
+    position: fixed;
+    background: $color-white;
+    z-index: 3;
+    // top: ;
+    left: -200vw;
+    // left: 0;
+    width: 100vw;
+    height: 142px; 
+    // bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: .3s;
+    border-radius: $Radius;
+
+    .menu-flex {
+        display: flex;
+        align-items: center;       
+    }
+}
+
+.menu ol {
+    list-style: none;
+    position: relative;
+    left: -35px;
+}
+
+.menu li {
+    padding: 5px;
+}
+
+.menu ol li a {
+    color: $color-primario;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+ .menu.is-active {
+     left: 0;
+  }
+
+  .menu-close {
+      color: #FF0000 !important;
+  }
+
+
+//   Hide container
+
+.hide-container {
+    left: -200vw;
+    // left: 0;
+    width: 100vw;
+    height: 100vh; 
+    background-color: #9c9c9c80;
+    position: fixed;
+    z-index: 2;
+}
+
+.hide-container.is-hide {
+    left: 0;
+}

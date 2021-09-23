@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
@@ -13,7 +14,7 @@
         <!-- Menú -->
         <header class="Header-container">
             <div class="Header--menu">
-                <i class="burger-button"></i>
+                <i class="burger-button" onclick="hideShow()"></i>
             </div>
             <div class="Header--diccionario">Diccionario</div>
             <div class="Header--perfil">
@@ -21,6 +22,46 @@
             </div>
         </header>
         <!-- MenúFin -->
+
+        <!-- burger menu -->
+        <nav class="menu">
+            <ol>
+                <li class="list-menu">
+                    <div class="menu-flex">
+                        <div>
+                            <img src="./assets/icons/home.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="">Inicio</a> 
+                        </div>
+                    </div>
+                </li>
+                <li class="list-menu">
+                    <div class="menu-flex">
+                        <div>
+                            <img src="./assets/icons/configuracion.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="">Configuraicón</a> 
+                        </div>
+                    </div>
+                </li>
+                <li class="list-menu">
+                    <div class="menu-flex">
+                        <div>
+                            <img src="./assets/icons/close.svg" alt="">
+                        </div>
+                        <div>
+                            <a class="menu-close" href="">Cerrar sesíon</a> 
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </nav>
+        <!-- burger menu Fin -->
+        <!-- Hide container -->
+        <section class="hide-container"></section>
+        <!-- Hide container Fin -->
         <!-- Search -->
         <main class="Search--container">
             <div class="Search-icon"></div>
@@ -28,6 +69,7 @@
             <input class="Search--input" type="text" placeholder="Busca una palabra">
         </main>
         <!-- SearchFin -->
+
         <!-- Lista -->
         <section class="List--container">
             <ul class="list-group">
@@ -79,6 +121,7 @@
 
 
     <!-- Script - Bootstrap 5 -->
+    <script src="./javascript/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>

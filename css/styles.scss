@@ -1,6 +1,7 @@
 @import './variables';
 @import './normalize';
 @import './global';
+@import './menu.scss';
 
 // Completa app
 .App-container {
@@ -39,6 +40,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 4;
+    cursor: pointer;
 }
 
 .perfil-img {
@@ -129,7 +131,8 @@
     width: 100%;
     height: 50px;
     background-color: $backgroundFooter;
-    position: absolute;
+    position: fixed;
+    z-index: 5;
     bottom: 0;
     display: flex;
     justify-content: space-around;
