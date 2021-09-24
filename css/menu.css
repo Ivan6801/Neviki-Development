@@ -28,6 +28,10 @@
           align-items: center;
 }
 
+.menu .menu-flex div {
+  margin-left: 20px;
+}
+
 .menu ol {
   list-style: none;
   position: relative;
