@@ -1,0 +1,105 @@
+// !Phone 4
+@media screen and (min-height: 480px) {
+    .Perfil--foto {
+        margin-top: 5px !important;
+    }
+    .Perfil--edit {
+        margin-top: 5px !important;
+        margin-bottom: 0px !important;
+    }
+    .Perfil--email {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .Perfil--flag {
+        margin-bottom: 10px !important;
+    }
+    .plans-container--card {
+        height: 250px !important;
+        margin-bottom: 60px !important;
+    }
+}
+
+// !Phone 5/SE
+@media screen and (min-height: 568px) {
+    .Perfil--foto {
+        width: 80px !important;
+        height: 80px !important;
+        margin-top: 5px !important;
+        border: 3px solid #3B82F6 !important;
+    }
+    .Perfil--edit {
+        margin-top: 5px !important;
+        margin-bottom: 0px !important;
+    }
+    .Perfil--user {
+        margin-top: 5px !important;
+    }
+    .Perfil--email {
+        margin-top: -10px !important;
+        margin-bottom: 0px !important;
+    }
+    .Perfil--flag {
+        margin-bottom: 0px !important;
+    }
+    .plans-container--card {
+        margin: 0px 1px 0 !important;
+        height: 250px !important;
+        margin-bottom: 60px !important;
+    }
+}
+
+// !Phone 6/7/8 Plus
+@media screen and (min-height: 736px) {
+    .Perfil--foto {
+        width: 100px !important;
+        height: 100px !important;
+        margin-top: 5px !important;
+        border: 3px solid #3B82F6 !important;
+    }
+    .Perfil--edit {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+    .Perfil--flag {
+        margin-bottom: 10px !important;
+    }
+    .plans-container--card {
+        margin: 0px 1px 0 !important;
+        height: 300px !important;
+        margin-bottom: 60px !important;
+    }
+}
+
+// !Phone X
+@media screen and (min-height: 812px) {
+    .Perfil--foto {
+        width: 130px !important;
+        height: 130px !important;
+        margin-top: 20px !important;
+        border: 5px solid #3B82F6 !important;
+    }
+
+    .Perfil--edit {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .Perfil--user {
+        margin-top: 10px !important;
+    }
+
+    .Perfil--email {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .Perfil--flag {
+        margin-bottom: 40px !important;
+    }
+    .plans-container--card {
+        margin: 0px 1px 0 !important;
+        height: 280px !important;
+        margin-bottom: 60px !important;
+    }
+}
+

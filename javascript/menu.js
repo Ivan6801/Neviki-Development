@@ -6,6 +6,8 @@ console.log('Diseño css burder menu', menu);
 const hideContainer = document.querySelector('.hide-container');
 console.log('Diseño hide container', hideContainer);
 
+
+
 // Perfil menu
 const perfilMenu = document.querySelector('.perfil-menu');
 console.log('Perfil menu:', perfilMenu);
