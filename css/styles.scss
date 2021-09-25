@@ -176,3 +176,97 @@
     background-repeat: no-repeat;
     cursor: pointer;
 }
+
+.Perfil-foto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+    .Perfil--foto {
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        margin-top: 20px;
+        border: 5px solid #3B82F6;
+    }
+
+    .Perfil--edit {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Perfil--edit a {
+        font-size: $FontSizeMin;
+    }
+
+    .Perfil--user {
+        margin-top: 10px;
+    }
+
+    .Perfil--user p {
+        font-size: 1.6rem;
+    }
+
+    .Perfil--email {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Perfil--email p {
+        font-size: 1.6rem;
+    }
+    .Perfil--flag {
+        margin-bottom: 40px;
+    }
+}
+
+.History-title {
+    font-size: $FontSize;
+    margin-left: 30px;
+}
+
+.List-history {
+    width: 100%;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+// .History-card {
+//     display: grid;
+//     background-color: $color-secundario;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: repeat(3, 300px);
+//     margin-left: 1px;
+//     margin-right: 1px;
+//     gap: 1px;
+    
+
+//     .History-item {
+//         border: 1px solid $color-claro-gray;
+//     }
+// }
+
+.plans-container--slider {
+    display: flex;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    vertical-align: text-bottom;
+  }
+  .plans-container--card {
+    vertical-align: text-bottom;
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 10px 1px 0;
+    padding: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  }
+  

@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: black;
 }
+
 .Video-container .Video-menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,6 +12,7 @@
       justify-content: space-around;
   padding-top: 30px;
 }
+
 .Video-container .Video-menu ul li {
   list-style: none;
 }
@@ -28,3 +30,4 @@
   border: none;
   border-radius: 100%;
 }
+/*# sourceMappingURL=Video.css.map */
