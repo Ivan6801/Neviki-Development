@@ -956,4 +956,30 @@ html {
   background-repeat: no-repeat;
   margin: 10px;
 }
+
+.custom-select {
+  background-color: #F3F4F6;
+  border: 1px solid #C4C4C4;
+  outline: none;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+.Genero--container {
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  margin: auto;
+  border: none;
+  font-size: 1.4rem;
+  background-color: #F3F4F6;
+}
 /*# sourceMappingURL=styles.css.map */

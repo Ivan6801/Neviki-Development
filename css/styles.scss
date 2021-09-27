@@ -416,3 +416,23 @@
     background-repeat: no-repeat;
     margin: 10px;
 }
+
+.custom-select {
+    background-color: $color-secundario;
+    border: 1px solid $color-claro-gray;
+    outline: none;
+    font-size: $FontSizeMin;
+    margin-left: 10px;
+}
+
+.Genero--container {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border: none;
+    font-size: 1.4rem;
+    background-color: $color-secundario;
+}
