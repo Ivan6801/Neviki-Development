@@ -266,3 +266,153 @@
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
   }
   
+// Configuracion
+.Atras {
+    width: 30px;
+    height: 40px;
+    display: block;
+    background-image: url('../assets/icons/atras.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Setting-atras {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.Setting-atras a {
+    color: $color-white;
+    text-decoration: none;
+    font-size: $FontSizeMin;
+}
+
+.Setting-atras a:hover {
+    color: $color-white;
+}
+
+.Setting-info {
+    text-align: center;
+}
+
+.Setting-info h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: $FontSize;
+    font-weight: bold;
+    color: $color-primario;
+    text-transform: uppercase;
+}
+
+.btn-wsl {
+    width: 200px;
+    height: 40px;
+    background: $color-variacion;
+    border-radius: 10px;
+    border-radius: $Radius;
+    line-height: 35px;
+    display: block;
+    margin: auto;
+    color: $color-white;
+    text-decoration: none;
+    font-size: $FontSizeMin;
+
+}
+.btn-wsl:hover {
+    color: $color-white;
+}
+
+.Setting-about {
+    text-align: center;
+}
+
+.Setting-about h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: $FontSize;
+    font-weight: bold;
+    color: $color-primario;
+    text-transform: uppercase;
+}
+
+.Setting-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Setting-link div {
+    margin-bottom: 10px;
+}
+
+.Setting-version small {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: $color-primario;
+}
+
+
+// Informacion Personal
+
+.Info-nombre {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/nombre.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Info-apellido {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/apellido.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Info-correo {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/apellido.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Info-telefono {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/telefono.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Info-genero {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/genero.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.Info-naci {
+    width: 35px;
+    height: 30px;
+    background-image: url('../assets/icons/naci.svg');
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}

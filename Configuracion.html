@@ -13,7 +13,10 @@
     <!-- Menú -->
     <header class="Header-container">
         <div class="Header--menu">
-            <a href=""><i class="Atras"></i>Atras</a>
+            <figure class="Setting-atras">
+                <a href="Perfil.html"><i class="Atras"></i></a>
+                <a href="Perfil.html">Atrás</a>
+            </figure>
         </div>
         <div class="Header--perfil">
             <i><img class="perfil-img" onclick="hideShowPerfil()" src="./assets/images/CARLOS-WARD-PERFIL.png" alt="Perfil de imagen"></i>
@@ -61,29 +64,32 @@
         <!-- Hide container Fin -->
         <!-- Configuracion -->
         <!-- Configuracion Fin -->
-        <section>
-            <h3>Configuracion</h3>
-            <a href="#">Información personal</a>
+        <section class="Setting-info">
+                <h3>Configuración</h3>
+                <a class="btn-wsl" href="Informacion-personal.html">Información personal</a>
         </section>
+        <br />
         <hr class="linea">
-        <section>
+        <section class="Setting-about">
             <h3>Acerca de wsl</h3>
-            <a href="#">Términos de servicio</a>
-            <a href="#">Políticas de privacidad</a>
-            <a href="#"> Política de datos</a>
+            <div class="Setting-link">
+                <div>
+                    <a class="btn-wsl" href="#">Términos de servicio</a>
+                </div>
+                <div>
+                    <a class="btn-wsl" href="#">Políticas de privacidad</a>
+                </div>
+                <div>
+                    <a class="btn-wsl" href="#">Política de datos</a>
+                </div>
+            </div>
         </section>
         <hr class="linea">
-        <section>
+        <section class="Setting-version">
             <small>Versión 0.1</small>
         </section>
         <hr class="linea">
-
-
     </div>
-
-
-
-
 
     <!-- Script - Bootstrap 5 -->
     <script src="./javascript/menu.js"></script>

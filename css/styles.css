@@ -790,4 +790,170 @@ html {
   -webkit-box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
           box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+
+.Atras {
+  width: 30px;
+  height: 40px;
+  display: block;
+  background-image: url("../assets/icons/atras.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Setting-atras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Setting-atras a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.Setting-atras a:hover {
+  color: #FFFFFF;
+}
+
+.Setting-info {
+  text-align: center;
+}
+
+.Setting-info h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #374151;
+  text-transform: uppercase;
+}
+
+.btn-wsl {
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(90.06deg, #2DD4BF 16.04%, #3B82F6 81.83%);
+  border-radius: 10px;
+  border-radius: 10px;
+  line-height: 35px;
+  display: block;
+  margin: auto;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.btn-wsl:hover {
+  color: #FFFFFF;
+}
+
+.Setting-about {
+  text-align: center;
+}
+
+.Setting-about h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #374151;
+  text-transform: uppercase;
+}
+
+.Setting-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Setting-link div {
+  margin-bottom: 10px;
+}
+
+.Setting-version small {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: #374151;
+}
+
+.Info-nombre {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/nombre.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.Info-apellido {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/apellido.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.Info-correo {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/apellido.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.Info-telefono {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/telefono.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.Info-genero {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/genero.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.Info-naci {
+  width: 35px;
+  height: 30px;
+  background-image: url("../assets/icons/naci.svg");
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
