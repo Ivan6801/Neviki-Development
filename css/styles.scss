@@ -406,16 +406,6 @@
     background-repeat: no-repeat;
     margin: 10px;
 }
-.Info-naci {
-    width: 35px;
-    height: 30px;
-    background-image: url('../assets/icons/naci.svg');
-    display: block;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 10px;
-}
 
 .custom-select {
     background-color: $color-secundario;
@@ -434,5 +424,11 @@
     margin: auto;
     border: none;
     font-size: 1.4rem;
+    color: $color-claro-gray;
     background-color: $color-secundario;
+}
+
+.sevaed {
+    text-align: center;
+    font-size: $FontSize;
 }
