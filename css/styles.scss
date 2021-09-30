@@ -291,6 +291,7 @@
 }
 
 .btn-wsl {
+    text-align: center;
     width: 200px;
     height: 40px;
     background: $color-variacion;
@@ -522,4 +523,80 @@ select.form-select  {
         display: flex;
         justify-content: center;
     }
+}
+
+
+// Modal del video
+.Palabra {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.list-modal {
+    text-decoration: none;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+    margin-top: 100px !important;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.modal-title {
+    padding: 10px;
+}
+
+.modal-perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 2px solid #3B82F6;
+}
+// Share
+
+.heart-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url('../assets/icons/heart.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.comment-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url('../assets/icons/comment.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.share-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-image: url('../assets/icons/share.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Share-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Share-container div {
+    display: flex;
+    align-items: center;
+}
+.Share-container div p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
 }

@@ -17,6 +17,9 @@
     height: 250px !important;
     margin-bottom: 60px !important;
   }
+  .modal-content {
+    margin-top: 0px !important;
+  }
 }
 
 @media screen and (min-height: 568px) {
@@ -44,6 +47,9 @@
     margin: 0px 1px 0 !important;
     height: 250px !important;
     margin-bottom: 60px !important;
+  }
+  .modal-content {
+    margin-top: 50px !important;
   }
 }
 
