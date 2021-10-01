@@ -3,6 +3,15 @@
 @import './global';
 @import './menu.scss';
 
+//Wsl de logo
+.wsl-logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 // Completa app
 .App-container {
    background-color: $color-secundario;
@@ -160,7 +169,7 @@
 .footer-center-diccioario {
     width: 30px;
     height: 30px;
-    background-image: url('../assets/images/icons8-photo-video-32.png');
+    background-image: url('../assets/icons/nuevo.svg');
     display: block;
     background-position: center;
     background-size: cover;
@@ -424,7 +433,7 @@
 .Login {
     max-width: 900px;
     margin: 0 auto;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -600,3 +609,60 @@ select.form-select  {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+
+// Grid
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 300px));
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 50px 0;
+    height: 500px;
+    overflow-y: auto;
+
+    .post {
+        position: relative;
+        cursor: pointer;
+        display: block;
+    }
+    
+    .post-image{
+        margin: 0;
+    }
+    .post-image img{
+        width: 100%;
+        vertical-align: top;
+    }
+    .post-overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post-likes {
+        font-size: $FontSizeMin;
+        text-decoration: none;
+        border: none;
+    }
+    .post-comments {
+        font-size: $FontSizeMin;
+    }
+    .post-overlay {
+        position: absolute;
+        left: 0;
+        top: 190px;
+        padding: 5px;
+    }
+    .grid-perfil {
+        display: flex;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    .post-overlay .heart-icon {
+        width: 25px;
+        height: 25px;
+    }
+}
+

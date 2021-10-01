@@ -8,6 +8,7 @@
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-items: flex-start;
+
   }
   $msg-border: 1px solid silver;
   .msg {
@@ -26,11 +27,13 @@
       right: -20px;
       width: 15px; height: 15px;
       border-radius: 10px;
+      border: 1px solid #3B82F6;
     }
     &::after {
       right: -35px;
       width: 10px; height: 10px;
       border-radius: 5px;
+      border: 1px solid #3B82F6;
     }
     &.from {
       align-self: flex-end;
@@ -70,7 +73,27 @@
       font-size: 1.6rem;
   }
 
+.card {
+  border-radius: 10px !important;
+}
 
+.card-user {
+  color: #3B82F6;
+}
 
-
+.card-header {
+  display: flex;
+  align-items: center;
+}
   
+
+.Atras-celeste {
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-image: url('../assets/icons/atras-celeste.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+}

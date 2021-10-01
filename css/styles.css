@@ -515,6 +515,14 @@ html {
   right: 0;
 }
 
+.wsl-logo {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .App-container {
   background-color: #F3F4F6;
   width: 100%;
@@ -686,7 +694,7 @@ html {
 .footer-center-diccioario {
   width: 30px;
   height: 30px;
-  background-image: url("../assets/images/icons8-photo-video-32.png");
+  background-image: url("../assets/icons/nuevo.svg");
   display: block;
   background-position: center;
   background-size: cover;
@@ -983,7 +991,7 @@ html {
 .Login {
   max-width: 900px;
   margin: 0 auto;
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1207,5 +1215,77 @@ select.form-select {
   margin-left: 10px;
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+.post-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 300px))[2];
+      grid-template-columns: repeat(2, minmax(100px, 300px));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 10px;
+  margin: 50px 0;
+  height: 500px;
+  overflow-y: auto;
+}
+
+.post-list .post {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+
+.post-list .post-image {
+  margin: 0;
+}
+
+.post-list .post-image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.post-list .post-overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-list .post-likes {
+  font-size: 1.6rem;
+  text-decoration: none;
+  border: none;
+}
+
+.post-list .post-comments {
+  font-size: 1.6rem;
+}
+
+.post-list .post-overlay {
+  position: absolute;
+  left: 0;
+  top: 190px;
+  padding: 5px;
+}
+
+.post-list .grid-perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.post-list .post-overlay .heart-icon {
+  width: 25px;
+  height: 25px;
 }
 /*# sourceMappingURL=styles.css.map */

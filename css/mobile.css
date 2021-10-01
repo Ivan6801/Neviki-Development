@@ -20,6 +20,9 @@
   .modal-content {
     margin-top: 0px !important;
   }
+  .Login {
+    height: 90vh;
+  }
 }
 
 @media screen and (min-height: 568px) {
@@ -71,6 +74,9 @@
     margin: 0px 1px 0 !important;
     height: 300px !important;
     margin-bottom: 60px !important;
+  }
+  .Login {
+    height: 70vh;
   }
 }
 
