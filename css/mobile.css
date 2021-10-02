@@ -54,6 +54,9 @@
   .modal-content {
     margin-top: 50px !important;
   }
+  .Login {
+    height: 80vh;
+  }
 }
 
 @media screen and (min-height: 736px) {
