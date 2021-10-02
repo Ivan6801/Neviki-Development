@@ -1108,7 +1108,9 @@ select.form-select {
 .Registrar {
   max-width: 900px;
   margin: 0 auto;
-  height: 100vh;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
