@@ -997,7 +997,7 @@ html {
 .Login {
   max-width: 900px;
   margin: 0 auto;
-  height: 80vh;
+  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1157,6 +1157,12 @@ select.form-select {
 
 .modal-title {
   padding: 10px;
+}
+
+.modal-title-grid {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .modal-perfil {
