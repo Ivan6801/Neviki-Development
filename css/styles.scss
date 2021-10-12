@@ -140,7 +140,21 @@
         font-size: 1.8rem;
         cursor: pointer;
         padding: 10px;
-      
+        padding-right: 100px;
+        border: none;
+        
+    }
+
+    .list-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        font-weight: bold;
+        font-size: 1.8rem;
+        cursor: pointer;
+        background-color: $color-white;
+        border: 1px solid $color-claro-gray;
     }
 }
 
